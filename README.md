@@ -10,5 +10,4 @@ For people like me who are new to this i would suggest visiting [Maker.pro](http
 ## Payloads
 Following is the list of payloads i have worked on so far
 
-#### 1: Wi-Fi password stealer
-###### Grabs Windows saved Wi-Fi passwords and send them to your remote web server.
+>Wi-Fi password stealer: Grabs Windows saved Wi-Fi passwords and send them to your remote web server.
