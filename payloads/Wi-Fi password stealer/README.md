@@ -2,7 +2,9 @@
 
 ### Tested on:
 OS: Windows 10 Pro
+
 User: Admin Priviliged
+
 Hardware: ATtiny85 (Chinese)
 
 ### Requirements:
