@@ -19,3 +19,11 @@ Original concept by [DarkN3ss](https://forums.hak5.org/topic/33268-payload-windo
 **OS**: Windows 7(VM)/8(VM)/10<br>
 **User**: Admin User<br>
 **Hardware**: ATtiny85 (Chinese)
+
+#### 3: UACBypassBSOD.ino:<br>
+Runs cmd as admin using UAC bypass kills winint and that results in BSOD.<br>
+
+**Tested on:**<br>
+**OS**: Windows 7/8/10<br>
+**User**: Admin User<br>
+**Hardware**: ATtiny85 (Chinese)
