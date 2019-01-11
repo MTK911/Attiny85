@@ -17,12 +17,13 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_F, MOD_ALT_LEFT); 
   DigiKeyboard.sendKeyStroke(KEY_N);//run
   DigiKeyboard.delay(500);
+  DigiKeyboard.print("cmd");//start cmd
   DigiKeyboard.sendKeyStroke(KEY_TAB); 
   DigiKeyboard.sendKeyStroke(KEY_SPACE);//turn on admin privileges
-  DigiKeyboard.sendKeyStroke(KEY_TAB, MOD_SHIFT_LEFT); //run
-  DigiKeyboard.println("cmd");//start cmd
+  DigiKeyboard.sendKeyStroke(KEY_ENTER); //run
   DigiKeyboard.delay(200);
   DigiKeyboard.println("regedit");//start regedit
+  
   digitalWrite(1, HIGH); //turn on led when program finishes
   DigiKeyboard.delay(90000);
   digitalWrite(1, LOW); 
