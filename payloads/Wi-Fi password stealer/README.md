@@ -19,4 +19,6 @@ Starts cmd in a small window but also hides the cmd by scrolling it down the scr
 **Internet Access**
 
 ### Screenshot
-![Screenshot](https://i.ibb.co/fkQv9tN/Untitled.png)
+<kbd>
+<img src="https://i.ibb.co/fkQv9tN/Untitled.png">
+</kbd>
