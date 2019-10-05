@@ -14,17 +14,19 @@ For people like me who are new to this i would suggest visiting [Maker.pro](http
 ## Payloads
 Following is the list of payloads i have worked on so far
 
->Wi-Fi password stealer: Grabs Windows saved Wi-Fi passwords and send them to your remote web server.
+>Wi-Fi password stealer: Grabs Windows saved Wi-Fi passwords and send them to your remote web server
 
->Windows Crasher: Various payloads for crashing windows.
+>Windows Crasher: Various payloads for crashing windows
 
->UAC Bypass: Different methods to bypass windows UAC.
+>UAC Bypass: Different methods to bypass windows UAC
 
->BackDoor: Creates backdoor for later access.
+>BackDoor: Creates backdoor for later access
 
->KeyLogger: For logging and sending typed keys.
+>KeyLogger: For logging and sending typed keys
 
->Windows Phisher: Phisher for windows credentials.
+>Windows Phisher: Phisher for windows credentials
+
+>Sam Dumper: Dump windows password files (SAM) and send them to remote location
 
 ## DISCLAIMER
 All the software/scripts/applications/things in this repository are provided as is, without warranty of any kind. Use of these software/scripts/applications/things is entirely at your own risk. Creator of these softwares/scripts/applications/things is not responsible for any direct or indirect damage to your own or defiantly someone else's property resulting from the use of these software/scripts/applications/things.
