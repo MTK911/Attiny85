@@ -7,6 +7,9 @@ Windows credential phisher, Works by running powershell script and pausing for 1
 goes away after valid credentials are given if so credentials are sent to webhook.site from where they can be later retrieved from remote 
 location. Orignal concept stolen from [Nishang](https://github.com/samratashok/nishang/blob/master/Gather/Invoke-CredentialsPhish.ps1)<br>
 
+### Zeymare_Windows_Phisher.ino:<br>
+Windows credential phisher, works same as Windows_Phisher.ino but logs all entered credentials inculding the invalid ones. It stores them in temporary directory on file rake and in the end delete the created file after sending them when correct credentials are entered. 
+
 **Instructions:**<br>
 Before using it make sure the WebHook.site hook is set in payload which you will find almost at the end of the script. Also the 
 current time is set for 1 minute you can increase the time to your requirement in "start-sleep -s" which you will find at the start of script.<br>
