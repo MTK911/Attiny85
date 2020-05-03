@@ -6,8 +6,8 @@ A simple script which downloads file from internet and execute the downloaded fi
 **1.** PayLoad_Dropper.ino:<br>
 Starts run window and dump the whole payload string and execute it which downloads and execute the file after placing it on Desktop.
 
-**2.** ??.ino:<br>
-Place for more payloads
+**2.** Remote_PS_Exec.ino:<br>
+Execute powershell script placed in a remote location. Following script uses MS16-032 local windows exploit to escalate privileges.
 
 ### Tested on:
 **OS**: Windows 10 Pro<br>
