@@ -3,7 +3,6 @@
 ### Description:
 
 #### 1: Instant_Shell.ino:<br>
-Starting instant shell to an attacker machine in less than 1 minute.<br>
 
 **Payload by:** [hum4nG0D](https://github.com/hum4nG0D/)
 
