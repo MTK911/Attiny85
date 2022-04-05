@@ -1,1 +1,1 @@
-<h1>Sorry, Not accepting any pull requests</h1>
+<h1>Sorry, mtk911/Attiny85 is not accepting any pull requests</h1>
